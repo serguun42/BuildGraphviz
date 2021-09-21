@@ -1,0 +1,19 @@
+{
+  "name": "build-graphviz",
+  "version": "1.0.0",
+  "description": "Give package name, get its dependencies in a fancy way",
+  "main": "index.js",
+  "scripts": {
+    "graph": "node buildgraph.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serguun42/BuildGraphviz.git"
+  },
+  "author": "serguun42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serguun42/BuildGraphviz/issues"
+  },
+  "homepage": "https://github.com/serguun42/BuildGraphviz#readme"
+}
