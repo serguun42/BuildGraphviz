@@ -172,6 +172,8 @@ const FetcherWrapper = (...args) => new Promise((resolve, reject) => {
         const finalLayout = `digraph ${betterPackageName} {\n${filteredGraphLayout}\n}`.replace(/\n+/g, "\n");
 
 
+        console.clear();
+
         return Ask(`Program needs to write result to folder "result", next to this executable. It will contain file:\n\t* ${betterPackageName}.graphviz.dot\n\nType (y)es to proceed> `)
         .then((answer) => {
             if (!/^y(es)?$/i.test(answer)) {
