@@ -6,6 +6,7 @@
   "scripts": {
     "graph": "node buildgraph.js"
   },
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/serguun42/BuildGraphviz.git"
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/serguun42/BuildGraphviz/issues"
   },
-  "homepage": "https://github.com/serguun42/BuildGraphviz#readme"
+  "homepage": "https://github.com/serguun42/BuildGraphviz#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "semver": "^7.3.5"
+  }
 }
