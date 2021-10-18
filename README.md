@@ -11,3 +11,6 @@ Give package name, get its dependencies in a fancy way
 
 ALso you can start program with parameter from command line just like that:
 `node buildgraph.js express` or `node index axios` 
+
+### Submodule
+Can be included to existing parent git as submodule with `git submodule add ./hometask2 ./hometask2`
